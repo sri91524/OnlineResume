@@ -195,3 +195,6 @@ aside {
     width:70%;
     text-align: right;
 }
+.subHeadingColor:hover{
+    background-color: rgb(181, 181, 150);
+}
