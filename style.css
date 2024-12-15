@@ -1,0 +1,197 @@
+body
+{
+    background-color:black;    
+}
+#main-container{
+    display:flex;    
+    justify-content:left;
+    width:68%;   
+    /* border:5px solid pink; */
+    flex-wrap: wrap;
+}
+/* Name & Title Section */
+#box1
+{
+    /* border:10px solid red; */
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    width:80%;
+}
+.picHolder
+{  
+    text-align: center;    
+    padding: 0.5%;
+    padding: 3%;
+    
+}
+.titleHolder{    
+    display:Flex;
+    flex-direction: column;
+    color:white;
+    width: 70vh;
+}
+.clsTitle{
+    color:rgb(88, 198, 222); 
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+.clsName{
+    font-size: 3vh;
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 3vh;    
+}
+/* Address, Contact, Email Info */
+#box2{
+    /* border:10px solid red;  */
+    justify-content: left;   
+}
+.bldFont{   
+    font-weight:bold;    
+}
+
+.contactDet{
+    color:white;
+    font-family: "Titillium Web", sans-serif;    
+    font-size:2vh;
+}
+.empDet{
+    padding-top: 3vh; 
+}
+
+.subHeadingColor{
+    background-color: rgb(96, 91, 91);
+    width:100%;
+}
+.empDetBold{
+    color:white;
+    font-family: "Titillium Web", sans-serif;    
+    font-size:2vh;
+    text-align:left;
+    font-weight: bold;
+    width:60%;       
+}
+.lblEmp
+{
+    display:block;
+    width:60%;
+
+}
+.empDetSmall{
+    color:white;
+    font-family: "Titillium Web", sans-serif;    
+    font-size:1vh;  
+}
+h3
+{
+    text-align: left;
+}
+aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+         
+  }
+.prSubheading
+{
+    background-color: rgb(96, 91, 91);
+    width:10%; 
+}
+.imageBtn{
+    background: none;
+    border: none;
+    padding: 0;
+}
+#boxNet{
+    background-color: blue;
+    font-size: 1.5vh;
+    height: 2vh;
+    width:90%;
+    text-align: right;
+}
+#boxAsp{
+    background-color: rgb(99, 71, 226);
+    font-size: 1.5vh;
+    height: 2vh;
+    width:90%;
+    text-align: right;
+}
+#boxLinq{
+    background-color: rgb(94, 195, 249);
+    font-size: 1.5vh;
+    height: 2vh;
+    width:90%;
+    text-align: right;
+}
+#boxSql{
+    background-color: rgb(238, 66, 83);
+    font-size: 1.5vh;
+    height: 2vh;
+    width:80%;
+    text-align: right;
+}
+#boxSsis{
+    background-color: rgb(231, 149, 105);
+    font-size: 1.5vh;
+    height: 2vh;
+    width:60%;
+    text-align: right;
+}
+#boxHtml{
+    background-color: rgb(102, 183, 91);
+    font-size: 1.5vh;
+    height: 2vh;
+    width:90%;
+    text-align: right;
+}
+#boxCss{
+    background-color: rgb(159, 221, 197);
+    font-size: 1.5vh;
+    height: 2vh;
+    width:80%;
+    text-align: right;
+}
+#boxJs{
+    background-color: rgb(67, 179, 73);
+    font-size: 1.5vh;
+    height: 2vh;
+    width:80%;
+    text-align: right;
+}
+.techName
+{
+    color:white;
+    font-family: "Titillium Web", sans-serif;    
+    font-size:1.5vh;
+}
+#boxVS
+{
+    background-color: rgb(248, 102, 11);
+    font-size: 1.5vh;
+    height: 2vh;
+    width:80%;
+    text-align: right;
+}
+#boxVC
+{
+    background-color: rgb(248, 102, 11);
+    font-size: 1.5vh;
+    height: 2vh;
+    width:70%;
+    text-align: right;
+}
+#boxPM
+{
+    background-color: rgb(224, 246, 30);
+    font-size: 1.5vh;
+    height: 2vh;
+    width:70%;
+    text-align: right;
+}
