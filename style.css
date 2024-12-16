@@ -6,7 +6,7 @@ body
     display:flex;    
     justify-content:left;
     width:68%;   
-    /* border:5px solid pink; */
+    margin:auto;
     flex-wrap: wrap;
 }
 /* Name & Title Section */
@@ -198,3 +198,4 @@ aside {
 .subHeadingColor:hover{
     background-color: rgb(181, 181, 150);
 }
+
